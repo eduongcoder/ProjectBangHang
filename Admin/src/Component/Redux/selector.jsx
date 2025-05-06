@@ -1,0 +1,17 @@
+export const product =(state)=>state.product.product;
+export const purchaseitem=(state)=>state.purchase.purchaseItem;
+export const PurchaseOrder=(state)=>state.purchase.OrderPurchase;
+export const Type=(state)=>state.product.type;
+export const Gender=(state)=>state.product.gender;
+export const Size=(state)=>state.product.size;
+export const Quantity=(state)=>state.product.quantity;
+export const custumer=(state)=>state.custumer.custumer;
+export const roles=(state)=>state.custumer.Roles;
+export const Infor=(state)=>state.custumer.infor;
+export const Orders=(state)=>state.order.order;
+export const Sale=(state)=>state.sale.sale;
+export const State=(state)=>state.custumer.check;
+export const Inventory=(state)=>state.product.inventory;
+export const Statistical=(state)=>state.statistical.statistical;
+export const Statisticalgender=(state)=>state.statistical.gender;
+export const Statisticalgtype=(state)=>state.statistical.type;
